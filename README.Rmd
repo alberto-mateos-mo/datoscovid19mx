@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 <!-- badges: end -->
 
-`datoscovid19mx` is a package that cointains the data for COVID19 in Mexico, this data is published by the Dirección General de Epidemiología.
+`datoscovid19mx` is a package that cointains the data for COVID19 in Mexico, this data is published by the [Dirección General de Epidemiología](https://www.gob.mx/salud/acciones-y-programas/direccion-general-de-epidemiologia).
 
 Data is updated daily, if you use the package please update it daily.
 

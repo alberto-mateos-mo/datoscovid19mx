@@ -10,8 +10,8 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 <!-- badges: end -->
 
 `datoscovid19mx` is a package that cointains the data for COVID19 in
-Mexico, this data is published by the Dirección General de
-Epidemiología.
+Mexico, this data is published by the [Dirección General de
+Epidemiología](https://www.gob.mx/salud/acciones-y-programas/direccion-general-de-epidemiologia).
 
 Data is updated daily, if you use the package please update it daily.
 
