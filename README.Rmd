@@ -25,6 +25,8 @@ Data is updated daily, if you use the package please update it daily.
 
 The goal is to give easy access to the available information.
 
+Last update: 14/04/2020
+
 ## Installation
 
 Install (or update) from [GitHub](https://github.com/) with:
@@ -43,7 +45,6 @@ The package contains the following:
 - `covid_clean`: A dataframe containing data recoded from numeric keys to actual values.
 
 - `diccionarios`: A list containing data dictionaries used to create `covid_clean` dataframe, in case that you want to recode by yourself.
-
 
 Please note that the 'datoscovid19mx' project is released with a
 [Contributor Code of Conduct](CODE_OF_CONDUCT.md).

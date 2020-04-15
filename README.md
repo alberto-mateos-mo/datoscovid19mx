@@ -17,6 +17,8 @@ Data is updated daily, if you use the package please update it daily.
 
 The goal is to give easy access to the available information.
 
+Last update: 14/04/2020
+
 ## Installation
 
 Install (or update) from [GitHub](https://github.com/) with:
