@@ -6,7 +6,7 @@ require(plyr)
 require(datoscovid19mx)
 
 # Data reading
-datos <- read.csv("datos_abiertos_covid19/200415COVID19MEXICO.csv", encoding = "UTF-8")
+datos <- read.csv("datos_abiertos_covid19/200416COVID19MEXICO.csv", encoding = "UTF-8")
 datos <- janitor::clean_names(datos)
 covid_raw <- datos
 
