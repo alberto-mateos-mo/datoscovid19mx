@@ -4,7 +4,8 @@
 \name{diccionarios}
 \alias{diccionarios}
 \title{Dictionaries to recode covid_raw data}
-\format{A list with the following data frames:
+\format{
+A list with the following data frames:
 \describe{
 \item{entidad}{dataframe with values and description for states variables}
 \item{municipio}{dataframe with values and description for towns}
@@ -16,7 +17,8 @@
 \item{sexo}{dataframe with values and description for sexo(gender) variable}
 \item{sino}{dataframe with values and description for binary variables}
 \item{guia}{description of variables in spanish}
-}}
+}
+}
 \source{
 \url{https://www.gob.mx/salud/documentos/datos-abiertos-152127}
 }

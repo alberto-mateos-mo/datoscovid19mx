@@ -4,7 +4,8 @@
 \name{covid_raw}
 \alias{covid_raw}
 \title{Raw data for COVID-19 in Mexico}
-\format{A dataframe with columns:
+\format{
+A dataframe with columns:
 \describe{
 \item{fecha_actualizacion}{date of update}
 \item{origen}{if observation comes from USMER system or not}
@@ -40,7 +41,8 @@
 \item{pais_nacionalidad}{nacionality}
 \item{pais_origen}{country the patient came from}
 \item{uci}{if patient required intensive care}
-}}
+}
+}
 \source{
 \url{https://www.gob.mx/salud/documentos/datos-abiertos-152127}
 }
