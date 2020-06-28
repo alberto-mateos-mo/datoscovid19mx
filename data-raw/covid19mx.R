@@ -1,8 +1,8 @@
 ## code to prepare `covid19mx` dataset goes here
 
 # Libraries needed
-require(dplyr)
 require(plyr)
+require(dplyr)
 require(datoscovid19mx)
 
 # Data reading
