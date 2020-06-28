@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "cldav.privmath@gmail.com")
 Description: Contiene los datos abiertos de la Dirección general de Epidemiología sobre la enfermedad COVID19 en México.
-License: CCBY-4.0
+License: CC BY-SA 4.0
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.0

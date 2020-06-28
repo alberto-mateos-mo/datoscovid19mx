@@ -24,20 +24,20 @@ A dataframe with columns:
 \item{edad}{age}
 \item{nacionalidad}{if patient is mexican or not}
 \item{embarazo}{if patient was pregnant}
-\item{habla_langua_indi}{if patient speaks native language}
+\item{habla_langua_indig}{if patient speaks native language}
 \item{diabetes}{if patient has diabetes}
 \item{epoc}{if patient had COPD}
-\item{amsa}{if patient has asthma}
+\item{asma}{if patient has asthma}
 \item{inmusupr}{if patient has immunosuppression}
 \item{hipertension}{if patient has hipertension}
-\item{otra_con}{if patient has other comorbidities}
+\item{otra_com}{if patient has other co-morbidities}
 \item{cardiovascular}{if patient has cardiovascular diseases}
 \item{obesidad}{if patient has obesity}
 \item{renal_cronica}{if patient has chronic kidney disease}
 \item{tabaquismo}{if patient is a smoker}
 \item{otro_caso}{if patient has contact with a covid positive}
 \item{resultado}{result of covid19 test}
-\item{migrante}{if patient is migran}
+\item{migrante}{if patient is migrant}
 \item{pais_nacionalidad}{nacionality}
 \item{pais_origen}{country the patient came from}
 \item{uci}{if patient required intensive care}

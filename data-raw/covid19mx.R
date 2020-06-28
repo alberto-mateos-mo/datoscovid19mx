@@ -11,7 +11,7 @@ datos <- read.csv(paste0("datos_abiertos_covid19/", archivo), encoding = "UTF-8"
 datos <- janitor::clean_names(datos)
 covid_raw <- datos
 
-usethis::use_data(covid_raw, overwrite = TRUE)
+usethis::use_data(covid_raw, overwrite = TRUE, compress = "gzip")
 
 # Data recoding
 
@@ -43,7 +43,7 @@ datos$nacionalidad <- mapvalues(datos$nacionalidad, from = diccionarios$nacional
 
 datos$embarazo <- mapvalues(datos$embarazo, from = diccionarios$sino$clave, to = diccionarios$sino$descripcion)
 
-datos$habla_lengua_indi <- mapvalues(datos$habla_lengua_indi, from = diccionarios$sino$clave, to = diccionarios$sino$descripcion)
+datos$habla_lengua_indig <- mapvalues(datos$habla_lengua_indig, from = diccionarios$sino$clave, to = diccionarios$sino$descripcion)
 
 datos$diabetes <- mapvalues(datos$diabetes, from = diccionarios$sino$clave, to = diccionarios$sino$descripcion)
 
@@ -53,9 +53,9 @@ datos$asma <- mapvalues(datos$asma, from = diccionarios$sino$clave, to = diccion
 
 datos$inmusupr <- mapvalues(datos$inmusupr, from = diccionarios$sino$clave, to = diccionarios$sino$descripcion)
 
-datos$hipertension <- mapvalues(datos$hipertension, from = diccionarios$sino$clave, to = diccionarios$sino$clave)
+datos$hipertension <- mapvalues(datos$hipertension, from = diccionarios$sino$clave, to = diccionarios$sino$descripcion)
 
-datos$otra_con <- mapvalues(datos$otra_con, from = diccionarios$sino$clave, to = diccionarios$sino$descripcion)
+datos$otra_com <- mapvalues(datos$otra_com, from = diccionarios$sino$clave, to = diccionarios$sino$descripcion)
 
 datos$cardiovascular <- mapvalues(datos$cardiovascular, from = diccionarios$sino$clave, to = diccionarios$sino$descripcion)
 
@@ -75,4 +75,4 @@ datos$uci <- mapvalues(datos$uci, from = diccionarios$sino$clave, to = diccionar
 
 covid_clean <- datos
 
-usethis::use_data(covid_clean, overwrite = TRUE)
+usethis::use_data(covid_clean, overwrite = TRUE, compress = "gzip")

@@ -15,7 +15,7 @@ A list with the following data frames:
 \item{resultado}{dataframe with values and description for resultado variable}
 \item{sector}{dataframe with values and description for sector variable}
 \item{sexo}{dataframe with values and description for sexo(gender) variable}
-\item{sino}{dataframe with values and description for binary variables}
+\item{sino}{dataframe with values and description for binary (yes/no) variables}
 \item{guia}{description of variables in spanish}
 }
 }
