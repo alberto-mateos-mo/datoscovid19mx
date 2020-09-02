@@ -17,7 +17,7 @@ Data is updated daily, if you use the package please update it daily.
 
 The goal is to give easy access to the available information.
 
-Last update: 2020-08-31 20:31:49
+Last update: 2020-09-01 20:15:53
 
 ## Installation
 
