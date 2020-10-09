@@ -8,15 +8,15 @@
 A list with the following data frames:
 \describe{
 \item{entidad}{dataframe with values and description for states variables}
-\item{municipio}{dataframe with values and description for towns}
+\item{municipios}{dataframe with values and description for towns}
 \item{nacionalidad}{dataframe with values and descripttion for nationality variables}
 \item{origen}{dataframe with values and description for origen variable}
 \item{paciente}{dataframe with values and description for tipo_paciente variable}
-\item{resultado}{dataframe with values and description for resultado variable}
 \item{sector}{dataframe with values and description for sector variable}
 \item{sexo}{dataframe with values and description for sexo(gender) variable}
 \item{sino}{dataframe with values and description for binary (yes/no) variables}
-\item{guia}{description of variables in spanish}
+\item{resultado_lab}{dataframe with values and description for resultado_lab variable}
+\item{clasificacion}{dataframe with values and description for clasificacion_final variable}
 }
 }
 \source{

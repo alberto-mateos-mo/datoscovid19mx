@@ -40,11 +40,9 @@ devtools::install_github("alberto-mateos-mo/datoscovid19mx")
 
 The package contains the following:
 
-- `covid_raw`: A dataframe containing data 'as-is', downloaded from [here.](https://www.gob.mx/salud/documentos/datos-abiertos-152127)
+- `covidmx`: A dataframe containing data 'as-is', downloaded from [here.](https://www.gob.mx/salud/documentos/datos-abiertos-152127)
 
-- `covid_clean`: A dataframe containing data recoded from numeric keys to actual values.
-
-- `diccionarios`: A list containing data dictionaries used to create `covid_clean` dataframe, in case that you want to recode by yourself.
+- `diccionarios`: A list containing data dictionaries.
 
 Please note that the 'datoscovid19mx' project is released with a
 [Contributor Code of Conduct](CODE_OF_CONDUCT.md).
